@@ -54,3 +54,28 @@ ul li {
   ul li:hover span {
      box-shadow: -1px 1px 1px rgba(0,0,0,.1);
  }
+
+ ul li:hover span
+ {
+     box-shadow: -1px 1px 1px rgba(0,0,0,.1);
+ }
+
+ul li:hover span:nth-child(5) {
+  transform: translate(50px, -50px);
+}
+
+ul li:hover span:nth-child(4) {
+  transform: translate(40px, -40px);
+}
+
+ul li:hover span:nth-child(3) {
+  transform: translate(30px, -30px);
+}
+
+ul li:hover span:nth-child(2) {
+  transform: translate(20px, -20px);
+}
+
+ul li:hover span:nth-child(1) {
+  transform: translate(10px, -10px);
+}
