@@ -11,3 +11,11 @@
   --linkedin: #0077B5;
   --instagram: #E4405F; 
 }
+
+ul
+{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
