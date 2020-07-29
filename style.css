@@ -50,3 +50,7 @@ ul li {
     font-size: 30px !important;
     border-radius: 4px;
   }
+
+  ul li:hover span {
+     box-shadow: -1px 1px 1px rgba(0,0,0,.1);
+ }
