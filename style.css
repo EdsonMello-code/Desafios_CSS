@@ -79,3 +79,19 @@ ul li:hover span:nth-child(2) {
 ul li:hover span:nth-child(1) {
   transform: translate(10px, -10px);
 }
+
+ul li:nth-child(1) span {
+  background: var(--facebook);
+}
+ul li:nth-child(2) span {
+  background: var(--twitter);
+}
+ul li:nth-child(3) span {
+  background: var(--googlePlus);
+}
+ul li:nth-child(4) span {
+  background: var(--linkedin);
+}
+ul li:nth-child(5) span {
+  background: var(--instagram);
+}
